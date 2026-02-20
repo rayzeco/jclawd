@@ -1,0 +1,14 @@
+
+jcooper@Jamsheds-MacBook-Air clawd % ssh root@187.77.202.175
+docker ps
+root@srv1392828:~# docker exec -it 7f694063e706 bash
+openclaw status
+
+
+
+
+##Successfully received certificate.
+##Certificate is saved at: /etc/letsencrypt/live/jclawd.tech/fullchain.pem
+##Key is saved at:         /etc/letsencrypt/live/jclawd.tech/privkey.pem
+##This certificate expires on 2026-05-19.
+##These files will be updated when the certificate renews.
